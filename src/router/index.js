@@ -1,6 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import LoginForm from "../views/login-form.vue"; // Changed to "LoginForm" with camelCase
+import Register from "../views/register.vue";
 
 Vue.use(VueRouter);
 
@@ -18,6 +20,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: LoginForm, // Updated to "LoginForm" with camelCase
+  },
+  {
+    path: "/register",
+    name: "register",
+    component: Register, // Updated to "Register" with camelCase
   },
 ];
 
