@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-3">Left</div>
-      <div class="col-md-6">Mid</div>
-      <div class="col-md-3">Right</div>
+      <div class="col-md-3">Left Column Content</div>
+      <div class="col-md-6">Mid Column Content</div>
+      <div class="col-md-3">Right Column Content</div>
     </div>
   </div>
 </template>

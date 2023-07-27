@@ -5,7 +5,7 @@
         <a
           class="navbar-brand"
           href="#"
-          style="font-size: 30px; color: blue; margin-right: 20px"
+          style="font-size: 30px; color: blue; margin-right: 20px; font-weight: bold;"
         >
           One Origin
         </a>
